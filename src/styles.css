@@ -1,0 +1,29 @@
+body {
+    font-family: 'はれのそら明朝';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#colorPicker {
+    width: 100px;
+    height: 50px;
+}
+
+#colorCode {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    border-radius: 10px;
+    user-select: none;
+    transition: transform 0.2s;
+}
+
+#colorCode:active {
+    transform: scale(0.95);
+}
